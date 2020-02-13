@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a493c8a4-08c0-43c2-819a-8c752bbe3815" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XRcBcncxAK6hlAF966s6En5CUm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.predo.Main" />
+      <module name="strings" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a493c8a4-08c0-43c2-819a-8c752bbe3815" name="Default Changelist" comment="" />
+      <created>1581012212337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581012212337</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="194" key="GridCell.Tab.0.bottom" timestamp="1581014061944">
+      <screen x="0" y="27" width="1440" height="827" />
+    </state>
+    <state width="1398" height="194" key="GridCell.Tab.0.bottom/0.27.1440.827@0.27.1440.827" timestamp="1581014061944" />
+    <state width="1398" height="194" key="GridCell.Tab.0.center" timestamp="1581014061943">
+      <screen x="0" y="27" width="1440" height="827" />
+    </state>
+    <state width="1398" height="194" key="GridCell.Tab.0.center/0.27.1440.827@0.27.1440.827" timestamp="1581014061943" />
+    <state width="1398" height="194" key="GridCell.Tab.0.left" timestamp="1581014061932">
+      <screen x="0" y="27" width="1440" height="827" />
+    </state>
+    <state width="1398" height="194" key="GridCell.Tab.0.left/0.27.1440.827@0.27.1440.827" timestamp="1581014061932" />
+    <state width="1398" height="194" key="GridCell.Tab.0.right" timestamp="1581014061944">
+      <screen x="0" y="27" width="1440" height="827" />
+    </state>
+    <state width="1398" height="194" key="GridCell.Tab.0.right/0.27.1440.827@0.27.1440.827" timestamp="1581014061944" />
+    <state x="131" y="53" width="1168" height="781" key="new project wizard" timestamp="1581014060355">
+      <screen x="0" y="27" width="1440" height="827" />
+    </state>
+    <state x="131" y="53" width="1168" height="781" key="new project wizard/0.27.1440.827@0.27.1440.827" timestamp="1581014060355" />
+  </component>
+</project>

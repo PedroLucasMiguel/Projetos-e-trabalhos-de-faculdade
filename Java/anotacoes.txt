@@ -1,0 +1,81 @@
+função main funciona da mesma maneira que na linguagem C
+
+
+Classe:
+- É uma espécie de "container" para uma ou mais funções
+- Normalmente o nome de classes sempre começam com letra maíuscula
+- TODA FUNÇÃO DENTRO DE UMA CLASSE, deve ser referida como "método"
+- Toda classe e método possuem "modificadores de acesso", o que faz com que uma
+classe ou método possa ou não ser acessada em outros locais do programa
+
+
+Variáveis:
+
+Tipos primitivos:
+- Int, bool, float, double, long, char, boolea, byte...
+- Alocam memória automaticamente e armazenam o seus valores nesse espaço alocado
+
+Tipos de referencia:
+- Não alocam espaço automaticamente quando são declarados
+- Armazenam O ENDEREÇO de onde a informação sera guardada (pensa em ponteiros em C)
+por isso se chama "de referencia".
+
+
+Todas as classes possuem:
+- Atributos = Variáveis
+- Comportamento = Métodos
+
+
+Todo método PRECISA DE UM RETORNO EM ALGUM MOMENTO! Portanto, se ele não conseguir
+alcançar a condição para realizar algum retorno, é necessário no fim do código colocar
+alguma espécie de "retorno padrão" para caso não seja possível retornar algo
+anteriormente.
+
+
+É possível transformar todos os números na passagem de parametros em um array (parametro varargs), basta
+usar ... Exemplo:
+
+public int calc(int... numeros) { //Se eu passar os parametros 1,2,3 eles irão ser convertidos em um array
+	int resultado = 0;
+	for(int i = 0; i < numeros.lenght; i++) {
+		resultado += numeros[i];
+	}
+	return resultado;
+}
+
+
+É possível criar apenas UM varargs por método, e ele deve sempre ser declarado por último nos parametros.
+
+
+Não é uma boa pratica deixar os atributos de uma classe publicos, logo deve se usar private.
+Mas com ela se tornando private se torna necessário a criação de métodos para a inserção de dados
+nesses atributos.
+Por convenção se você deseja INSERIR um valor em um atributo deve-se criar o método:
+
+	public void setVariavel(tipo a) //Onde Variavel = nome da variavel
+
+Ele para MOSTRAR o valor dessa variavel:
+
+	public tipo getVariavel()
+
+
+Atributos estáticos se tornam idependentes do objeto, se tornando o membro da classe, ou seja
+se esse valor for alterado, ele sera alterado em TODOS os objetos daquela classe
+Para alterar o valor de um atributo estática, as boas praticas dizem para se usar a classe em si
+na chamada do método.
+
+
+É possível obter herença de outras classes em java usando na delcaração da classe a keyword extends nome_da_classe
+Isso faz com que as funcionalidades da classe que cedeu a herança apareçam nessa nova classe.
+Só é possível ter uma herança por classe.
+
+
+Modificador de acesso protected: Permite o acesso apenas dentro da classe ou por classes filhas (herança).
+
+
+Modificador abstract: Obriga a implementar os métodos depois
+
+
+instanceof = verifica se o objeto generico é de um certo tipo
+
+if(funcionario instanceof Genrente)
