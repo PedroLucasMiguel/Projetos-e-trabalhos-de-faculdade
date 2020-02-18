@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DLSA:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DLSA_jar</output-path>
+    <root id="archive" name="DLSA.jar">
+      <element id="module-output" name="DLSA" />
+    </root>
+  </artifact>
+</component>
