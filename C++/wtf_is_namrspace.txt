@@ -1,0 +1,2 @@
+Q: what in the actuall fuck is an namespace?
+R: Basicamente, namespaces são utilizados para evitar conflitos nas chamadas de funções que possuem o mesmo "nome"
